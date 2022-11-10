@@ -212,7 +212,7 @@ select gender,MS,salary, lead(salary,2) over(partition by gender) from window_fu
 select gender,MS,salary, lag(salary,2) over() from window_functions;
 
 select * from powerbisqlbatch2.student;
-update powerbisqlbatch2.student set stuname = 'Ravali' where stuid = 5;
+update powerbisqlbatch2.student set stuname = 'Ganesh' where stuid = 5;
 
 
 
